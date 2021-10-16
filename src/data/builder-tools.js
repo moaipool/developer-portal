@@ -218,6 +218,14 @@ const Showcases = [
     getstarted: "/docs/smart-contracts/marlowe#marlowe-playground",
     tags: ["featured", "getstarted", "marlowe"],
   },
+  {
+    title: "Ansible cardano-node",
+    description: "Ansible playbook for provisioning secure Cardano stake pools.",
+    preview: require("./builder-tools/ansible-cardano-node.png"),
+    website: "https://github.com/moaipool/ansible-cardano-node",
+    getstarted: null,
+    tags: ["operatortool", "automation"],
+  },
 ];
 
 
